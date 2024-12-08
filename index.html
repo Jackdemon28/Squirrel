@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>松鼠观察笔记</title>
+    <link rel="stylesheet" href="squ.css">
+</head>
+<body>
+    <div class="container">
+        <h1>松鼠观察笔记</h1>
+        <div class="observation">
+            <h2>观察一</h2>
+            <img src="squirrel1.jpg" alt="松鼠在石板上" onclick="showModal(this)">
+            <p>观察到一只松鼠在石板上寻找食物。</p>
+        </div>
+        <div class="observation">
+            <h2>观察二</h2>
+            <img src="squirrel2.jpg" alt="松鼠在树干下" onclick="showModal(this)">
+            <p>松鼠在树干下寻找庇护，看起来非常警觉。</p>
+        </div>
+        <div class="observation">
+            <h2>观察三</h2>
+            <img src="squirrel3.jpg" alt="松鼠在树枝上" onclick="showModal(this)">
+            <p>松鼠在石板上休息，非常の悠闲呢。</p>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-image" src="" alt="松鼠图片">
+            <p id="modal-text">这里是松鼠的描述信息。</p>
+        </div>
+    </div>
+    <script src="squ.js"></script>
+</body>
+</html>
